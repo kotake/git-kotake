@@ -10,6 +10,9 @@
 
 using namespace std;
 
+
+
+//test
 int main()
 {
   //char string[MEM_SIZE];
