@@ -1,0 +1,333 @@
+Platform Count:                                                                2
+Platform ID:                                                          0x01904828
+CL_PLATFORM_NAME:                                                Intel(R) OpenCL
+CL_PLATFORM_VENDOR:                                         Intel(R) Corporation
+CL_PLATFORM_VERSION:                                            OpenCL 1.1 LINUX
+CL_PLATFORM_EXTENSIONS                  cl_khr_fp64 cl_khr_icd cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_intel_printf cl_ext_device_fission cl_intel_exec_by_local_thread 
+
+Device Count:                                                                  1
+Device ID:                                                            0x01910E40
+CL_DEVICE_NAME:                         Intel(R) Core(TM) i7 CPU         980  @ 3.33GHz
+CL_DEVICE_VENDOR:                                           Intel(R) Corporation
+CL_DRIVER_VERSION:                                                           1.1
+CL_DEVICE_PROFILE:                                                  FULL_PROFILE
+CL_DEVICE_VERSION:                                OpenCL 1.1 (Build 31360.31426)
+CL_DEVICE_EXTENSIONS:                   
+cl_khr_fp64 cl_khr_icd cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_intel_printf cl_ext_device_fission cl_intel_exec_by_local_thread
+CL_DEVICE_PLATFORM:                                                   0x01904828
+CL_DEVICE_TYPE:                         
+                                                          CL_DEVICE_TYPE_CPU
+CL_DEVICE_VENDOR_ID                                                   0x00008086
+CL_DEVICE_MAX_COMPUTE_UNITS:                                                  12
+CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS:                                            3
+CL_DEVICE_MAX_WORK_ITEM_SIZES:                             (1024 , 1024 , 1024).
+CL_DEVICE_MAX_WORK_GROUP_SIZE:                                              1024
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR:                                        16
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT:                                        8
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT:                                          4
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_LONG:                                         2
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT:                                        4
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE:                                       2
+CL_DEVICE_MAX_CLOCK_FREQUENCY:                                              3330
+CL_DEVICE_ADDRESS_BITS:                                                       64
+CL_DEVICE_MAX_MEM_ALLOC_SIZE:                                         1531360256
+CL_DEVICE_IMAGE_SUPPORT:                                                    true
+CL_DEVICE_MAX_READ_IMAGE_ARGS:                                               480
+CL_DEVICE_MAX_WRITE_IMAGE_ARGS:                                              480
+CL_DEVICE_IMAGE2D_MAX_WIDTH:                                                8192
+CL_DEVICE_IMAGE2D_MAX_HEIGHT:                                               8192
+CL_DEVICE_IMAGE3D_MAX_WIDTH:                                                2048
+CL_DEVICE_IMAGE3D_MAX_HEIGHT:                                               2048
+CL_DEVICE_IMAGE3D_MAX_DEPTH:                                                2048
+CL_DEVICE_MAX_SAMPLERS:                                                      480
+CL_DEVICE_MAX_PARAMETER_SIZE:                                               3840
+CL_DEVICE_MEM_BASE_ADDR_ALIGN:                                              1024
+CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE:                                          128
+CL_DEVICE_SINGLE_FP_CONFIG:             
+                                                                CL_FP_DENORM
+                                                               CL_FP_INF_NAN
+                                                      CL_FP_ROUND_TO_NEAREST
+CL_DEVICE_GLOBAL_MEM_CACHE_TYPE:        
+                                                         CL_READ_WRITE_CACHE
+CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE:                                          64
+CL_DEVICE_GLOBAL_MEM_CACHE_SIZE:                                          262144
+CL_DEVICE_GLOBAL_MEM_SIZE:                                            6125441024
+CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE:                                       131072
+CL_DEVICE_MAX_CONSTANT_ARGS:                                                 480
+CL_DEVICE_LOCAL_MEM_TYPE:               
+                                                                   CL_GLOBAL
+CL_DEVICE_LOCAL_MEM_SIZE:                                                  32768
+CL_DEVICE_ERROR_CORRECTION_SUPPORT:                                        false
+CL_DEVICE_PROFILING_TIMER_RESOLUTION:                                          1
+CL_DEVICE_ENDIAN_LITTLE:                                                       1
+CL_DEVICE_AVAILABLE:                                                           1
+CL_DEVICE_COMPILER_AVAILABLE:                                                  1
+CL_DEVICE_EXECUTION_CAPABILITIES:       
+                                                              CL_EXEC_KERNEL
+                                                       CL_EXEC_NATIVE_KERNEL
+CL_DEVICE_QUEUE_PROPERTIES              
+                                      CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE
+                                                   CL_QUEUE_PROFILING_ENABLE
+Platform ID:                                                          0x0192CE80
+CL_PLATFORM_NAME:                                                    NVIDIA CUDA
+CL_PLATFORM_VENDOR:                                           NVIDIA Corporation
+CL_PLATFORM_VERSION:                                       OpenCL 1.1 CUDA 4.1.1
+CL_PLATFORM_EXTENSIONS                  cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll 
+
+Device Count:                                                                  4
+Device ID:                                                            0x0192CF50
+CL_DEVICE_NAME:                                                  GeForce GTX 580
+CL_DEVICE_VENDOR:                                             NVIDIA Corporation
+CL_DRIVER_VERSION:                                                     285.05.33
+CL_DEVICE_PROFILE:                                                  FULL_PROFILE
+CL_DEVICE_VERSION:                                               OpenCL 1.1 CUDA
+CL_DEVICE_EXTENSIONS:                   
+cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll  cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 
+CL_DEVICE_PLATFORM:                                                   0x0192CE80
+CL_DEVICE_TYPE:                         
+                                                          CL_DEVICE_TYPE_GPU
+CL_DEVICE_VENDOR_ID                                                   0x000010DE
+CL_DEVICE_MAX_COMPUTE_UNITS:                                                  16
+CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS:                                            3
+CL_DEVICE_MAX_WORK_ITEM_SIZES:                               (1024 , 1024 , 64).
+CL_DEVICE_MAX_WORK_GROUP_SIZE:                                              1024
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR:                                         1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT:                                        1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT:                                          1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_LONG:                                         1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT:                                        1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE:                                       1
+CL_DEVICE_MAX_CLOCK_FREQUENCY:                                              1544
+CL_DEVICE_ADDRESS_BITS:                                                       32
+CL_DEVICE_MAX_MEM_ALLOC_SIZE:                                          805093376
+CL_DEVICE_IMAGE_SUPPORT:                                                    true
+CL_DEVICE_MAX_READ_IMAGE_ARGS:                                               128
+CL_DEVICE_MAX_WRITE_IMAGE_ARGS:                                                8
+CL_DEVICE_IMAGE2D_MAX_WIDTH:                                               32768
+CL_DEVICE_IMAGE2D_MAX_HEIGHT:                                              32768
+CL_DEVICE_IMAGE3D_MAX_WIDTH:                                                2048
+CL_DEVICE_IMAGE3D_MAX_HEIGHT:                                               2048
+CL_DEVICE_IMAGE3D_MAX_DEPTH:                                                2048
+CL_DEVICE_MAX_SAMPLERS:                                                       16
+CL_DEVICE_MAX_PARAMETER_SIZE:                                               4352
+CL_DEVICE_MEM_BASE_ADDR_ALIGN:                                              4096
+CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE:                                          128
+CL_DEVICE_SINGLE_FP_CONFIG:             
+                                                                CL_FP_DENORM
+                                                               CL_FP_INF_NAN
+                                                      CL_FP_ROUND_TO_NEAREST
+                                                         CL_FP_ROUND_TO_ZERO
+                                                          CL_FP_ROUND_TO_INF
+                                                                   CL_FP_FMA
+CL_DEVICE_GLOBAL_MEM_CACHE_TYPE:        
+                                                         CL_READ_WRITE_CACHE
+CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE:                                         128
+CL_DEVICE_GLOBAL_MEM_CACHE_SIZE:                                          262144
+CL_DEVICE_GLOBAL_MEM_SIZE:                                            3220373504
+CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE:                                        65536
+CL_DEVICE_MAX_CONSTANT_ARGS:                                                   9
+CL_DEVICE_LOCAL_MEM_TYPE:               
+                                                                    CL_LOCAL
+CL_DEVICE_LOCAL_MEM_SIZE:                                                  49152
+CL_DEVICE_ERROR_CORRECTION_SUPPORT:                                        false
+CL_DEVICE_PROFILING_TIMER_RESOLUTION:                                       1000
+CL_DEVICE_ENDIAN_LITTLE:                                                       1
+CL_DEVICE_AVAILABLE:                                                           1
+CL_DEVICE_COMPILER_AVAILABLE:                                                  1
+CL_DEVICE_EXECUTION_CAPABILITIES:       
+                                                              CL_EXEC_KERNEL
+CL_DEVICE_QUEUE_PROPERTIES              
+                                      CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE
+                                                   CL_QUEUE_PROFILING_ENABLE
+Device ID:                                                            0x0192CFC0
+CL_DEVICE_NAME:                                                  GeForce GTX 580
+CL_DEVICE_VENDOR:                                             NVIDIA Corporation
+CL_DRIVER_VERSION:                                                     285.05.33
+CL_DEVICE_PROFILE:                                                  FULL_PROFILE
+CL_DEVICE_VERSION:                                               OpenCL 1.1 CUDA
+CL_DEVICE_EXTENSIONS:                   
+cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll  cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 
+CL_DEVICE_PLATFORM:                                                   0x0192CE80
+CL_DEVICE_TYPE:                         
+                                                          CL_DEVICE_TYPE_GPU
+CL_DEVICE_VENDOR_ID                                                   0x000010DE
+CL_DEVICE_MAX_COMPUTE_UNITS:                                                  16
+CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS:                                            3
+CL_DEVICE_MAX_WORK_ITEM_SIZES:                               (1024 , 1024 , 64).
+CL_DEVICE_MAX_WORK_GROUP_SIZE:                                              1024
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR:                                         1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT:                                        1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT:                                          1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_LONG:                                         1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT:                                        1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE:                                       1
+CL_DEVICE_MAX_CLOCK_FREQUENCY:                                              1544
+CL_DEVICE_ADDRESS_BITS:                                                       32
+CL_DEVICE_MAX_MEM_ALLOC_SIZE:                                          805224448
+CL_DEVICE_IMAGE_SUPPORT:                                                    true
+CL_DEVICE_MAX_READ_IMAGE_ARGS:                                               128
+CL_DEVICE_MAX_WRITE_IMAGE_ARGS:                                                8
+CL_DEVICE_IMAGE2D_MAX_WIDTH:                                               32768
+CL_DEVICE_IMAGE2D_MAX_HEIGHT:                                              32768
+CL_DEVICE_IMAGE3D_MAX_WIDTH:                                                2048
+CL_DEVICE_IMAGE3D_MAX_HEIGHT:                                               2048
+CL_DEVICE_IMAGE3D_MAX_DEPTH:                                                2048
+CL_DEVICE_MAX_SAMPLERS:                                                       16
+CL_DEVICE_MAX_PARAMETER_SIZE:                                               4352
+CL_DEVICE_MEM_BASE_ADDR_ALIGN:                                              4096
+CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE:                                          128
+CL_DEVICE_SINGLE_FP_CONFIG:             
+                                                                CL_FP_DENORM
+                                                               CL_FP_INF_NAN
+                                                      CL_FP_ROUND_TO_NEAREST
+                                                         CL_FP_ROUND_TO_ZERO
+                                                          CL_FP_ROUND_TO_INF
+                                                                   CL_FP_FMA
+CL_DEVICE_GLOBAL_MEM_CACHE_TYPE:        
+                                                         CL_READ_WRITE_CACHE
+CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE:                                         128
+CL_DEVICE_GLOBAL_MEM_CACHE_SIZE:                                          262144
+CL_DEVICE_GLOBAL_MEM_SIZE:                                            3220897792
+CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE:                                        65536
+CL_DEVICE_MAX_CONSTANT_ARGS:                                                   9
+CL_DEVICE_LOCAL_MEM_TYPE:               
+                                                                    CL_LOCAL
+CL_DEVICE_LOCAL_MEM_SIZE:                                                  49152
+CL_DEVICE_ERROR_CORRECTION_SUPPORT:                                        false
+CL_DEVICE_PROFILING_TIMER_RESOLUTION:                                       1000
+CL_DEVICE_ENDIAN_LITTLE:                                                       1
+CL_DEVICE_AVAILABLE:                                                           1
+CL_DEVICE_COMPILER_AVAILABLE:                                                  1
+CL_DEVICE_EXECUTION_CAPABILITIES:       
+                                                              CL_EXEC_KERNEL
+CL_DEVICE_QUEUE_PROPERTIES              
+                                      CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE
+                                                   CL_QUEUE_PROFILING_ENABLE
+Device ID:                                                            0x0192D030
+CL_DEVICE_NAME:                                                  GeForce GTX 580
+CL_DEVICE_VENDOR:                                             NVIDIA Corporation
+CL_DRIVER_VERSION:                                                     285.05.33
+CL_DEVICE_PROFILE:                                                  FULL_PROFILE
+CL_DEVICE_VERSION:                                               OpenCL 1.1 CUDA
+CL_DEVICE_EXTENSIONS:                   
+cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll  cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 
+CL_DEVICE_PLATFORM:                                                   0x0192CE80
+CL_DEVICE_TYPE:                         
+                                                          CL_DEVICE_TYPE_GPU
+CL_DEVICE_VENDOR_ID                                                   0x000010DE
+CL_DEVICE_MAX_COMPUTE_UNITS:                                                  16
+CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS:                                            3
+CL_DEVICE_MAX_WORK_ITEM_SIZES:                               (1024 , 1024 , 64).
+CL_DEVICE_MAX_WORK_GROUP_SIZE:                                              1024
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR:                                         1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT:                                        1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT:                                          1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_LONG:                                         1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT:                                        1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE:                                       1
+CL_DEVICE_MAX_CLOCK_FREQUENCY:                                              1544
+CL_DEVICE_ADDRESS_BITS:                                                       32
+CL_DEVICE_MAX_MEM_ALLOC_SIZE:                                          805224448
+CL_DEVICE_IMAGE_SUPPORT:                                                    true
+CL_DEVICE_MAX_READ_IMAGE_ARGS:                                               128
+CL_DEVICE_MAX_WRITE_IMAGE_ARGS:                                                8
+CL_DEVICE_IMAGE2D_MAX_WIDTH:                                               32768
+CL_DEVICE_IMAGE2D_MAX_HEIGHT:                                              32768
+CL_DEVICE_IMAGE3D_MAX_WIDTH:                                                2048
+CL_DEVICE_IMAGE3D_MAX_HEIGHT:                                               2048
+CL_DEVICE_IMAGE3D_MAX_DEPTH:                                                2048
+CL_DEVICE_MAX_SAMPLERS:                                                       16
+CL_DEVICE_MAX_PARAMETER_SIZE:                                               4352
+CL_DEVICE_MEM_BASE_ADDR_ALIGN:                                              4096
+CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE:                                          128
+CL_DEVICE_SINGLE_FP_CONFIG:             
+                                                                CL_FP_DENORM
+                                                               CL_FP_INF_NAN
+                                                      CL_FP_ROUND_TO_NEAREST
+                                                         CL_FP_ROUND_TO_ZERO
+                                                          CL_FP_ROUND_TO_INF
+                                                                   CL_FP_FMA
+CL_DEVICE_GLOBAL_MEM_CACHE_TYPE:        
+                                                         CL_READ_WRITE_CACHE
+CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE:                                         128
+CL_DEVICE_GLOBAL_MEM_CACHE_SIZE:                                          262144
+CL_DEVICE_GLOBAL_MEM_SIZE:                                            3220897792
+CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE:                                        65536
+CL_DEVICE_MAX_CONSTANT_ARGS:                                                   9
+CL_DEVICE_LOCAL_MEM_TYPE:               
+                                                                    CL_LOCAL
+CL_DEVICE_LOCAL_MEM_SIZE:                                                  49152
+CL_DEVICE_ERROR_CORRECTION_SUPPORT:                                        false
+CL_DEVICE_PROFILING_TIMER_RESOLUTION:                                       1000
+CL_DEVICE_ENDIAN_LITTLE:                                                       1
+CL_DEVICE_AVAILABLE:                                                           1
+CL_DEVICE_COMPILER_AVAILABLE:                                                  1
+CL_DEVICE_EXECUTION_CAPABILITIES:       
+                                                              CL_EXEC_KERNEL
+CL_DEVICE_QUEUE_PROPERTIES              
+                                      CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE
+                                                   CL_QUEUE_PROFILING_ENABLE
+Device ID:                                                            0x0192D0A0
+CL_DEVICE_NAME:                                                  GeForce GTX 580
+CL_DEVICE_VENDOR:                                             NVIDIA Corporation
+CL_DRIVER_VERSION:                                                     285.05.33
+CL_DEVICE_PROFILE:                                                  FULL_PROFILE
+CL_DEVICE_VERSION:                                               OpenCL 1.1 CUDA
+CL_DEVICE_EXTENSIONS:                   
+cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll  cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 
+CL_DEVICE_PLATFORM:                                                   0x0192CE80
+CL_DEVICE_TYPE:                         
+                                                          CL_DEVICE_TYPE_GPU
+CL_DEVICE_VENDOR_ID                                                   0x000010DE
+CL_DEVICE_MAX_COMPUTE_UNITS:                                                  16
+CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS:                                            3
+CL_DEVICE_MAX_WORK_ITEM_SIZES:                               (1024 , 1024 , 64).
+CL_DEVICE_MAX_WORK_GROUP_SIZE:                                              1024
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR:                                         1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT:                                        1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT:                                          1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_LONG:                                         1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT:                                        1
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE:                                       1
+CL_DEVICE_MAX_CLOCK_FREQUENCY:                                              1544
+CL_DEVICE_ADDRESS_BITS:                                                       32
+CL_DEVICE_MAX_MEM_ALLOC_SIZE:                                          805224448
+CL_DEVICE_IMAGE_SUPPORT:                                                    true
+CL_DEVICE_MAX_READ_IMAGE_ARGS:                                               128
+CL_DEVICE_MAX_WRITE_IMAGE_ARGS:                                                8
+CL_DEVICE_IMAGE2D_MAX_WIDTH:                                               32768
+CL_DEVICE_IMAGE2D_MAX_HEIGHT:                                              32768
+CL_DEVICE_IMAGE3D_MAX_WIDTH:                                                2048
+CL_DEVICE_IMAGE3D_MAX_HEIGHT:                                               2048
+CL_DEVICE_IMAGE3D_MAX_DEPTH:                                                2048
+CL_DEVICE_MAX_SAMPLERS:                                                       16
+CL_DEVICE_MAX_PARAMETER_SIZE:                                               4352
+CL_DEVICE_MEM_BASE_ADDR_ALIGN:                                              4096
+CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE:                                          128
+CL_DEVICE_SINGLE_FP_CONFIG:             
+                                                                CL_FP_DENORM
+                                                               CL_FP_INF_NAN
+                                                      CL_FP_ROUND_TO_NEAREST
+                                                         CL_FP_ROUND_TO_ZERO
+                                                          CL_FP_ROUND_TO_INF
+                                                                   CL_FP_FMA
+CL_DEVICE_GLOBAL_MEM_CACHE_TYPE:        
+                                                         CL_READ_WRITE_CACHE
+CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE:                                         128
+CL_DEVICE_GLOBAL_MEM_CACHE_SIZE:                                          262144
+CL_DEVICE_GLOBAL_MEM_SIZE:                                            3220897792
+CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE:                                        65536
+CL_DEVICE_MAX_CONSTANT_ARGS:                                                   9
+CL_DEVICE_LOCAL_MEM_TYPE:               
+                                                                    CL_LOCAL
+CL_DEVICE_LOCAL_MEM_SIZE:                                                  49152
+CL_DEVICE_ERROR_CORRECTION_SUPPORT:                                        false
+CL_DEVICE_PROFILING_TIMER_RESOLUTION:                                       1000
+CL_DEVICE_ENDIAN_LITTLE:                                                       1
+CL_DEVICE_AVAILABLE:                                                           1
+CL_DEVICE_COMPILER_AVAILABLE:                                                  1
+CL_DEVICE_EXECUTION_CAPABILITIES:       
+                                                              CL_EXEC_KERNEL
+CL_DEVICE_QUEUE_PROPERTIES              
+                                      CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE
+                                                   CL_QUEUE_PROFILING_ENABLE
