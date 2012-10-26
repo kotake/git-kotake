@@ -135,6 +135,8 @@ int printDeviceInfos(int cnt, cl_device_id* clDeviceIDs)
 
     GetAndCHK(clGetDeviceInfo(clSelectedDeviceID, CL_DEVICE_MAX_WORK_GROUP_SIZE, sizeof(sz), &sz, NULL));
     cout << left << setw(40) << "CL_DEVICE_MAX_WORK_GROUP_SIZE:" << right << setw(40) << (unsigned long)sz << endl;
+    cout << CL_DEVICE_MAX_WORK_ITEM_SIZES << endl;
+    cout << CL_DEVICE_MAX_WORK_GROUP_SIZE << endl;
 
     GetAndCHK(clGetDeviceInfo(clSelectedDeviceID, CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR, sizeof(clUInt), &clUInt, NULL));
     cout << left << setw(40) << "CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR:" << right << setw(40) << clUInt << endl;

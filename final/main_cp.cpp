@@ -6,13 +6,10 @@
 #include<time.h>
 
 #define MAX_SOURCE_SIZE (0x100000)
-#define MEM_SIZE (CL_DEVICE_MAX_WORK_ITEM_SIZES)
+#define MEM_SIZE (1000)
 
 using namespace std;
 
-
-
-//test
 int main()
 {
   //char string[MEM_SIZE];
@@ -49,7 +46,7 @@ int main()
 
   cl_command_queue queue;
   queue = clCreateCommandQueue(context, devices, 0, &status);
-  //cout <<"queue:"<<status << endl;
+  cout <<"queue:"<<status << endl;
 
   cl_program program;
   program = clCreateProgramWithSource(context, 1, (const char**)&source_str, &source_size, &status);
@@ -86,24 +83,34 @@ int main()
 
   cl_kernel kernel;
   kernel = clCreateKernel(program, "calc", &status);
-  //cout << status << endl;
+  cout << status << endl;
 
-  float Outx[MEM_SIZE];
+  float Outx[MEM_SIZE*2];
   float Outy[MEM_SIZE];
   //bool OutCheck[MEM_SIZE][MEM_SIZE];
-  bool *OutCheck = new bool[MEM_SIZE*MEM_SIZE];
+  bool *OutCheck = new bool[MEM_SIZE*MEM_SIZE*2];
   Outx[0] = -2;
   Outy[0] = -2;
-  for(int i= 0; i < MEM_SIZE-1 ;i++)
+
+  for(int i =0;i < MEM_SIZE-1;i++)
+  {
+    Outy[i+1] = Outx[i] + (4.0 / MEM_SIZE);
+    //cout <<"kiteru?"<<endl;
+  }
+  for(int i= 0; i < MEM_SIZE*2-1 ;i++)
   { 
-    Outx[i+1] = Outx[i] + (4.0 / MEM_SIZE);
-    Outy[i+1] = Outy[i] + (4.0 / MEM_SIZE);
+    Outx[i+1] = Outx[i] + (4.0 / MEM_SIZE*2);
 
     for(int j = 0; j < MEM_SIZE ;j++)
     {
-      OutCheck[i*MEM_SIZE+j] = true;
+      OutCheck[i*MEM_SIZE*2+j] = true;
+      //cout <<"kiteru?" <<endl;
     }
   }
+
+
+  cout << "kiteru?" << endl;
+  
 
   cl_mem memoutx, memouty, memoutcheck;
   memoutx = clCreateBuffer(context, CL_MEM_READ_WRITE, MEM_SIZE * sizeof(float), NULL, &status);
@@ -123,18 +130,18 @@ int main()
   status = clSetKernelArg(kernel, 0,sizeof(cl_mem),(void *)&memoutx);
   status = clSetKernelArg(kernel, 1,sizeof(cl_mem),(void *)&memouty);
   status = clSetKernelArg(kernel, 2,sizeof(cl_mem),(void *)&memoutcheck);
-  //cout <<"カーネルに渡す引数セット："<<status<<endl;
+  cout <<"カーネルに渡す引数セット："<<status<<endl;
   
   //status = clEnqueueTask(queue, kernel, 0, NULL, NULL);
-  size_t global_work_size[] = {MEM_SIZE * MEM_SIZE};
-  size_t local_work_size[]  = {MEM_SIZE};
-  
-  
+  size_t global_work_size[] = {MEM_SIZE * MEM_SIZE*2};
+  size_t local_work_size[]  = {1000};
+    
   clock_t t1, t2;
   t1 = clock();
-  status = clEnqueueNDRangeKernel(queue, kernel, 1, local_work_size, global_work_size, NULL, 0, NULL, NULL);
+  status = clEnqueueNDRangeKernel(queue, kernel, 1, 0, global_work_size, local_work_size, 0, NULL, NULL);
   t2 = clock();
-  if( status < 0){
+  if( status < 0) 
+  {
     cout <<"実行："<<status<<endl;
     cout << CL_DEVICE_MAX_WORK_GROUP_SIZE << endl;
     cout << CL_DEVICE_MAX_WORK_ITEM_SIZES << endl;
@@ -144,7 +151,7 @@ int main()
   //status = clEnqueueReadBuffer(queue, memoutx, CL_TRUE, 0, MEM_SIZE * sizeof(float), Out, 0, NULL, NULL);
   //status = clEnqueueReadBuffer(queue, memouty, CL_TRUE, 0, MEM_SIZE * sizeof(float), Out, 0, NULL, NULL);
   status = clEnqueueReadBuffer(queue, memoutcheck, CL_TRUE, 0, MEM_SIZE * MEM_SIZE * sizeof(bool), OutCheck, 0, NULL, NULL);
-  //cout <<"結果取り出し："<<status<<endl;
+  cout <<"結果取り出し："<<status<<endl;
 
   for(int i = 0;i < MEM_SIZE; i++)
   {
